@@ -1,0 +1,107 @@
+.navbar-brand img {
+    height: 74px !important;
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+.blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}
+
+.custom-marquee {
+    text-align: center;
+    font-style: oblique;
+    width: 100%;
+    height: 70px;
+    line-height: 50px;
+    color: #3e4095;
+    background-color: #a5dafb;
+    padding: 15px;
+    font-size: 50px;
+    margin-bottom: -6px;
+    /*padding-top: 5px;*/
+    /*margin-top: -6px;*/
+    font-family: 'Lobster', helvetica, arial;
+}
+
+.footer-bottom {
+
+    color: #000064;
+}
+
+.floating-wpp {
+    bottom: 93px !important;
+    z-index: 9;
+}
+
+.footer-bottom ul li a {
+    color: #ffffff;
+    font-weight: 800;
+}
+
+
+.modal-header .close {
+
+    font-size: 50px;
+}
+
+.img-thumbnail {
+    background-color: #d2ae6d;
+    height: 180px;
+    width: 100%;
+}
+
+
+/*.employers-grid .employers-list-logo {*/
+
+/*    width: 100px !important;*/
+/*    padding: 0px !important;*/
+/*}*/
+
+
+.employers-grid {
+    padding: 34px 20px;
+    border-radius: 47px;
+    border: 1px solid #000064;
+    /*background-color: #a5dafb;*/
+    background-color: #3e4095;
+    /*object-fit: cover;*/
+    max-height: 218px;
+    height: 218px;
+}
+.employers-list-image{
+    /*object-fit: cover;*/
+    width: 100% !important;
+    height: 100% !important;
+}
+.slider-img{
+    width: 100% !important;
+}
+.text_style_custom p ,
+.text_style_custom li ,
+.text_style_custom span{
+    /*font-family: 'Lobster', helvetica, arial !important;*/
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 20px !important;
+    color: #000064 !important;
+    overflow-x: hidden !important;
+}
+.custome_font_style{
+    color: #000064 !important;
+    font-family: 'Lobster', helvetica, arial !important;
+    font-size: 18px;
+}
+
